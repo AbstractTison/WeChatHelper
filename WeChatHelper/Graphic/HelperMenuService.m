@@ -21,7 +21,7 @@ static char kAutoReplyWindowController;
     NSMenuItem *preventRevokeItem = [NSMenuItem menuItemWithTitle:HelperLocalizedString(@"assistant.menu.revoke") action:@selector(onPreventRevoke:) target:self keyEquivalent:@"t" state:[[Configuration getInstance] preventRevokeEnable]];
     NSMenuItem *autoReplyItem = [NSMenuItem menuItemWithTitle:HelperLocalizedString(@"assistant.menu.autoReply") action:@selector(onAutoReply:) target:self keyEquivalent:@"k" state:[[Configuration getInstance] autoReplyEnable]];
     NSMenuItem *stickyItem = [NSMenuItem menuItemWithTitle:HelperLocalizedString(@"assistant.menu.windowSticky") action:@selector(onWeChatStickyControl:) target:self keyEquivalent:@"D" state:[[Configuration getInstance] stickyEnable]];
-    NSMenuItem *autoAuthItem = [NSMenuItem menuItemWithTitle:HelperLocalizedString(@"assistant.menu.freeLogin") action:@selector(onAutoAuthControl:) target:self keyEquivalent:@"M" state:[[Configuration getInstance] autoAuthEnable]];
+    NSMenuItem *autoAuthItem = [NSMenuItem menuItemWithTitle:HelperLocalizedString(@"assistant.menu.freeLogin") action:@selector(onAutoAuthControl:) target:self keyEquivalent:@"l" state:[[Configuration getInstance] autoAuthEnable]];
     
     NSMenu *subMenu = [[NSMenu alloc] initWithTitle:HelperLocalizedString(@"assistant.menu.title")];
     [subMenu addItems:@[preventRevokeItem, autoReplyItem, stickyItem, autoAuthItem]];

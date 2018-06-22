@@ -10,20 +10,20 @@ framework_path="${app_bundle_path}/${framework_name}.framework"
 
 if [ ! -d "$wechat_path" ]
 then
-    wechat_path="/Applications/微信.app"
-    if [ ! -d "$wechat_path" ]
-    then
-        echo -e "\n\n应用程序文件夹中未发现微信，请检查微信是否有重命名或者移动路径位置"
-        exit
-    fi
+wechat_path="/Applications/微信.app"
+if [ ! -d "$wechat_path" ]
+then
+echo -e "应用程序文件夹中未发现微信，请检查微信是否有重命名或者移动路径位置"
+exit
+fi
 fi
 
 if [ -f "$app_executable_backup_path" ]
 then
-    rm "$app_executable_path"
-    rm -rf "$framework_path"
-    mv "$app_executable_backup_path" "$app_executable_path"
-    echo "\n\t卸载成功"
+rm "$app_executable_path"
+rm -rf "$framework_path"
+mv "$app_executable_backup_path" "$app_executable_path"
+echo "卸载成功"
 else
-    echo "\n\t未发现微信小助手"
+echo "未发现微信小助手"
 fi
