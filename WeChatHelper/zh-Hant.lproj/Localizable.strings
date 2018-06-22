@@ -1,0 +1,42 @@
+//  菜單
+"assistant.menu.title" = "微信小助手";
+"assistant.menu.revoke" = "開啟消息防撤回";
+"assistant.menu.autoReply" = "自動回復設置";
+"assistant.menu.windowSticky" = "微信窗口置頂";
+"assistant.menu.freeLogin" = "免認證登錄";
+
+//  撤回相關
+"assistant.revokeType.emoji" = "[表情]";
+"assistant.revokeType.image" = "[圖片]";
+"assistant.revokeType.video" = "[視頻]";
+"assistant.revokeType.voice" = "[語音]";
+"assistant.revokeType.other" = "[非文本]";
+"assistant.revoke.otherMessage.tip" = "不許走！小助手攔截到一條撤回消息：";
+"assistant.revoke.chatroom.tip" = "想撤回";
+
+//  回話選擇
+"assistant.chat.stickyBottom" = "置底";
+"assistant.chat.unStickyBottom" = "取消置底";
+"assistant.chat.multiSelect" = "多選";
+"assistant.chat.unMultiSelect" = "取消多選";
+"assistant.chat.readAll" = "一鍵已讀";
+"assistant.chat.clearEmpty" = "清除空會話";
+
+//  自動回復
+"assistant.autoReply.title" = "自動回復設置";
+"assistant.autoReply.enable" = "開啟自動回復";
+"assistant.autoReply.enableSpecific" = "開啟特定回復";
+"assistant.autoReply.selectSpecific" = "查看(修改)選中聯系人";
+"assistant.autoReply.enableRegEx" = "開啟正則匹配";
+"assistant.autoReply.enableGroup" = "開啟群聊自動回復";
+"assistant.autoReply.enableSingle" = "開啟私聊自動回復";
+"assistant.autoReply.delay" = "延遲發送";
+"assistant.autoReply.timeUnit" = "秒";
+"assistant.autoReply.contentPlaceholder" = "請輸入自動回復的內容（‘|’ 為隨機回復其中任一內容）";
+"assistant.autoReply.keywordPlaceholder" = "請輸入關鍵字（ ‘*’ 為任何消息都回復，‘|’ 為匹配多個關鍵字）";
+"assistant.autoReply.keyword" = "關鍵字";
+"assistant.autoReply.content" = "回復內容";
+"assistant.autoReply.list" = "自動回復列表";
+"assistant.autoReply.alert.confirm" = "確定";
+"assistant.autoReply.alert.title" = "您還有一條自動回復設置未完成";
+"assistant.autoReply.alert.content" = "請完善未完成的自動回復設置";

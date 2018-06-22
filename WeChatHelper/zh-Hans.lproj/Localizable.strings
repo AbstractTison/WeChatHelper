@@ -1,0 +1,42 @@
+//  菜单
+"assistant.menu.title" = "微信小助手";
+"assistant.menu.revoke" = "开启消息防撤回";
+"assistant.menu.autoReply" = "自动回复设置";
+"assistant.menu.windowSticky" = "微信窗口置顶";
+"assistant.menu.freeLogin" = "免认证登录";
+
+//  撤回相关
+"assistant.revokeType.emoji" = "[表情]";
+"assistant.revokeType.image" = "[图片]";
+"assistant.revokeType.video" = "[视频]";
+"assistant.revokeType.voice" = "[语音]";
+"assistant.revokeType.other" = "[非文本]";
+"assistant.revoke.otherMessage.tip" = "不许走！小助手拦截到一条撤回消息：";
+"assistant.revoke.chatroom.tip" = "想撤回";
+
+//  回话选择
+"assistant.chat.stickyBottom" = "置底";
+"assistant.chat.unStickyBottom" = "取消置底";
+"assistant.chat.multiSelect" = "多选";
+"assistant.chat.unMultiSelect" = "取消多选";
+"assistant.chat.readAll" = "一键已读";
+"assistant.chat.clearEmpty" = "清除空会话";
+
+//  自动回复
+"assistant.autoReply.title" = "自动回复设置";
+"assistant.autoReply.enable" = "开启自动回复";
+"assistant.autoReply.enableSpecific" = "开启特定回复";
+"assistant.autoReply.selectSpecific" = "查看(修改)选中联系人";
+"assistant.autoReply.enableRegEx" = "开启正则匹配";
+"assistant.autoReply.enableGroup" = "开启群聊自动回复";
+"assistant.autoReply.enableSingle" = "开启私聊自动回复";
+"assistant.autoReply.delay" = "延迟发送";
+"assistant.autoReply.timeUnit" = "秒";
+"assistant.autoReply.contentPlaceholder" = "请输入自动回复的内容（‘|’ 为随机回复其中任一内容）";
+"assistant.autoReply.keywordPlaceholder" = "请输入关键字（ ‘*’ 为任何消息都回复，‘|’ 为匹配多个关键字）";
+"assistant.autoReply.keyword" = "关键字";
+"assistant.autoReply.content" = "回复内容";
+"assistant.autoReply.list" = "自动回复列表";
+"assistant.autoReply.alert.confirm" = "确定";
+"assistant.autoReply.alert.title" = "您还有一条自动回复设置未完成";
+"assistant.autoReply.alert.content" = "请完善未完成的自动回复设置";

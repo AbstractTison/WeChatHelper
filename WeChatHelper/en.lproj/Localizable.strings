@@ -1,0 +1,42 @@
+//  MainMenu
+"assistant.menu.title" = "Assistant";
+"assistant.menu.revoke" = "Prevent Revoke";
+"assistant.menu.autoReply" = "Auto Reply Settings";
+"assistant.menu.windowSticky" = "Sticky on Top";
+"assistant.menu.freeLogin" = "Auto Login";
+
+//  Prevent Revoke
+"assistant.revokeType.emoji" = "[Sticker]";
+"assistant.revokeType.image" = "[Photo]";
+"assistant.revokeType.video" = "[Video]";
+"assistant.revokeType.voice" = "[Voice]";
+"assistant.revokeType.other" = "[Unknown Message]";
+"assistant.revoke.otherMessage.tip" = "Catch you! Helper prevent a revoke message:";
+"assistant.revoke.chatroom.tip" = "wants to revoke";
+
+//  Context Menu
+"assistant.chat.stickyBottom" = "Sticky on Bottom";
+"assistant.chat.unStickyBottom" = "Unsticky on Bottom";
+"assistant.chat.multiSelect" = "Multiselect";
+"assistant.chat.unMultiSelect" = "Unmultiselect";
+"assistant.chat.readAll" = "Mark All As Read";
+"assistant.chat.clearEmpty" = "Clear All Empty Session";
+
+//  AutoAuth Setting
+"assistant.autoReply.title" = "Auto Reply Setting";
+"assistant.autoReply.enable" = "Enable Auto Reply";
+"assistant.autoReply.enableSpecific" = "Enable Some Session Reply";
+"assistant.autoReply.selectSpecific" = "View Or Edit Session";
+"assistant.autoReply.enableRegEx" = "Enable RegEx";
+"assistant.autoReply.enableGroup" = "Enable Group Reply";
+"assistant.autoReply.enableSingle" = "Enable Single Reply";
+"assistant.autoReply.delay" = "Delay Send";
+"assistant.autoReply.timeUnit" = "Second";
+"assistant.autoReply.contentPlaceholder" = "Reply Content('|' seperates alternations, reply random one of them)";
+"assistant.autoReply.keywordPlaceholder" = "Keyword('*' means reply for all messages, '|' seperates alternations)";
+"assistant.autoReply.keyword" = "Keyword";
+"assistant.autoReply.content" = "Reply Content";
+"assistant.autoReply.list" = "Auto Reply List";
+"assistant.autoReply.alert.confirm" = "OK";
+"assistant.autoReply.alert.title" = "Attention";
+"assistant.autoReply.alert.content" = "Please fill in keyword and reply content";

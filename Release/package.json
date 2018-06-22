@@ -1,0 +1,9 @@
+{
+  "title": "WeChatHelper",
+  "background": "bkg.png",
+  "contents": [
+    { "x": 210, "y": 122, "type": "file", "path": "UNINSTALL"}, 
+    { "x": 340, "y": 244, "type": "file", "path": "INSTALL" },
+    { "x": 80, "y": 244, "type": "file", "path": "materials" }
+  ]
+}

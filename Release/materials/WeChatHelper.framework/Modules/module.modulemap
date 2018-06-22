@@ -1,0 +1,6 @@
+framework module WeChatHelper {
+  umbrella header "WeChatHelper.h"
+
+  export *
+  module * { export * }
+}
