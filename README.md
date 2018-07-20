@@ -4,7 +4,7 @@
 
 This is an experimental WeChat Helper created by Tison\<wander4096@gmail.com>.
 
-See more on [project page](https://tison1.github.io/WeChatHelper).
+See more on [project page](https://abstracttison.github.io/WeChatHelper).
 
 It provides several enhancements of WeChat, including prevent revoking mesage, auto login and auto reply.
 
